@@ -1,8 +1,28 @@
 aid: siren
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/siren.png
 name: Siren
-description: Siren is a company surfaced as a portfolio company of 500-global, dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Siren is a digital health company that makes temperature-monitoring smart socks
+  to prevent diabetic foot ulcers. The seamless, machine-washable socks require no
+  charging or smartphone; embedded sensors continuously track foot temperature to
+  detect the early inflammation that precedes an ulcer, and licensed nurses review
+  the data and alert the patient's healthcare provider. Siren pairs the hardware
+  with a remote patient monitoring service billed through providers and payers,
+  and operates as a HIPAA-regulated healthcare business rather than a developer
+  platform. It is backed by 500 Global and DCM Ventures. As surveyed for the API
+  Evangelist network, Siren publishes no public developer API, SDK, or documentation
+  surface; this profile captures its identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/siren/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Health
+- Remote Patient Monitoring
+- Diabetes
+- Wearables
+- Medical Devices
+- HealthTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://siren.care
+- type: Support
+  url: https://support.siren.care/
+- type: Blog
+  url: https://siren.care/blog
+- type: PrivacyPolicy
+  url: https://siren.care/privacy-policy
+- type: TermsOfService
+  url: https://siren.care/terms-of-use
+- type: DomainSecurity
+  url: security/siren-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
